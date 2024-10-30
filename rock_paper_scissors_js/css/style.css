@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.fa {
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7
+}
+
+.fa-facebook {
+  color: whitesmoke;
+}
+
+.fa-twitter {
+  color: whitesmoke;
+}
+
+.fa-instagram {
+  color: whitesmoke;
+}
+
+#headerBox {
+  background-color: rgb(41, 41, 41);
+  text-align: center;
+  padding: 1rem;
+  color: whitesmoke;
+}
+
+body, html {
+  height: 94.5%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#gameContent {
+  flex: 1;
+}
+
+#cpuChoiceBox {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+#cpuChoice {
+  font-size: 2rem;
+  font-family: Times, serif;
+  font-weight: 900;
+  opacity: 0;
+}
+
+#shitTalkBox {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  background-color: rgb(41, 41, 41);
+  width: 60%;
+  margin-left: 19.45%;
+  padding: 2rem;
+  border: whitesmoke double;
+  border-width: 1rem;
+}
+
+#shitTalk {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 1rem;
+  font-family: serif;
+}
+
+#scoreBox {
+  margin-bottom: 1rem;
+  font-weight: 900;
+  text-align: center;
+  width: 48%;
+  margin-left: 25.5%;
+  padding: 0.225rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#cpuScore {
+  color: rgb(0, 0, 0);
+}
+
+#playerScore {
+  color: rgb(0, 0, 0);
+}
+
+#resetButton {
+  width: 15%;
+  margin-left: 42.3%;
+  background-color: rgb(41, 41, 41);
+  text-align: center;
+  color: whitesmoke;
+  border: double whitesmoke;
+  margin-bottom: 1rem;
+  padding: 0.175rem;
+}
+
+#resetText {
+  user-select: none;
+}
+
+#playerBox {
+  background-color: rgb(41, 41, 41);
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+  border: whitesmoke double;
+  border-width: 2rem;
+  width: 100%;
+}
+
+#spacer1 {
+  width: 30%;
+  padding: 0.1rem;
+}
+
+#spacer2 {
+  width: 30%;
+  padding: 0.1rem;
+}
+
+#rockBox {
+  background-color: whitesmoke;
+  padding: 1rem;
+  width: 50%;
+}
+
+#rockText {
+  color: black;
+  text-align: center;
+  font-size: 3rem;
+  user-select: none;
+}
+
+#paperBox {
+  background-color: whitesmoke;
+  padding: 1rem;
+  width: 50%;
+}
+
+#paperText {
+  color : black;
+  text-align: center;
+  font-size: 3rem;
+  user-select: none;
+}
+
+#scissorsBox {
+  background-color: whitesmoke;
+  padding: 1rem;
+  width: 50%;
+}
+
+#scissorsText {
+  color: black;
+  text-align: center;
+  font-size: 3rem;
+  user-select: none;
+}
+
+#footerBox {
+  background-color: rgb(41, 41, 41);
+  text-align: center;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
